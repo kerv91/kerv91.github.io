@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link ref="text/css" rel="stylesheet" href="script.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link ref="text/css" rel="stylesheet" href="script.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,14 +14,14 @@
         <a href="#page-one">Home</a>|
         <a href="#page-two">About Me</a>|
         <a href="#page-three">Portfolio</a>|
-        <a href="#page-four">Contact</a>
+        <a href="#page-four">Contact Me</a>|
         <br>
         <br>
         <header class="avatar">
         <center>
         <br>
         <br>
-        <img src="images/avatar.png" alt="Avatar" class="#img2">
+        <img src="images/avatar.png" alt="avatar" class="avatar">
         <h1>Karina
         <br>Rodriguez</h1>
         <br>
@@ -29,66 +29,129 @@
         </center>
         <br>
     </div>
-    <div id="page-one">
-        <h2>Welcome</h2>
-    </div>
-    <div id="page-two">
-    <h3>About Me</h3>
-    <p> Graduate of Eleven Fifty Academy's JavaScript Bootcamp. Based in Indianapolis, IN. I continue to seek learning and fullfill my curiosity and use technology based solutions to work to find real world solutions.
-    </p>
-    </div>
-    <div id="page-three">
-        <h3>Portfolio</h3>
-            
-        <body>
-                <div class= "container first">
-                <div class="row stylerow">
-                <div class="col-md-3 colone">
-                    one
-                </div>
-                <div class="col-md-3 coltwo">
-                    two
-                </div>
-                <div class="col-md-3 colthree">
-                    three
-                </div>
-                </div> 
+    <div class="container">
+        <div class="row">
 
-        </div>
-    </div>
-    <div class="page-four">
-        <h3>Contact Me</h3>
-        <br>
-        <center>
-        <form action = "mailto:kerv@att.net" method = "post" enctype = "text/plain">
-            <div class = "row">
-            <div class = "form-group">
-                <label for = "name">NAME: </label>
-                <input type = "name" id = "name" class="form-control" placeholder = "Enter Name" size = "50">
-            </div>
-            <div class = "form-group">
-            <label for = "email">EMAIL: </label>
-                <input type = "email" id = "email" class = "form-control" placeholder = "Enter Email Address" size = "50">
-            </div>
-            <div class = "form-group">
-            <label class = "control-label" for = "comment">COMMENT: </label>
-                <input type = "comment" id = "comment" class = "form-control" size = "45">
-            <br></br>
-            <button type = "submit" class = "btn btn-default">Submit</button>
-            </div>
-            </div>
-            </div>
-            </form>
-            <br>
-            <br>
-        </center>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-<footer>
-        <p>TEST</p>
-      </footer>
-      
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
 
-</html>
+                <div id="page-one">
+                    <h2>Welcome</h2>
+                    <br>
+                    <br>
+                </div>
+                <div id="page-two">
+                    <h3>About Me</h3>
+                    <center>
+                    <br>
+                    <p> Graduate of Eleven Fifty Academy's JavaScript Bootcamp. Based in Indianapolis, IN.
+                    <br>
+                    <br>I continue to seek learning and therefore fullfill my curiosity by entering the field of Information Technology. It's interesting to switch up profesionally and help solve real world challenges in a completely different direction than what I am used to.
+                    Coming from a medical background, I would say my biggest strength is my ability to build relationships. I’m a compassionate listener which helps me connect with people. My capacity for learning has allowed me to work several jobs where I didn’t have the initial experience. Consequently, Eleven Fifty has given me an opportunity to advance myself professionally by providing me the skills necessary to switch fields.
+                    <br>
+                    <br>
+                    <a href="https://www.slideshare.net/slideshow/embed_code/key/MoXuCkycIxOsXs">Download My Resume</a>
+                    </p>
+                    </center>
+                </div>
+                <div id="page-three">
+                    <h3>Portfolio</h3>
+                    <br>
+                    <body>
+                        <div class= "hover08 column">
+                            <div class="row stylerow">
+                                <div class="col-md-3 colone offset-1"> 
+                                    <figure><a href="https://codepen.io/kerv91/pen/dybqYqe"><img src="./images/creature.PNG" title="CSS CREATURE"/></a>
+                                    </figure> 
+                                <center>CSS Creature</center>
+                                </div>
+                                <div class="col-md-3 coltwo">
+                                <figure><a href="https://kerv91.github.io/staticLayout/"><img src="./images/static.PNG" title="Static Layout"/></a>
+                                </figure> 
+                                <center>Static Layout</center>
+                                </div>
+                                <div class="col-md-3 colthree">
+                                <figure><a href="#"><img src="./images/API.PNG" title="API"/></a>
+                                </figure> 
+                                <center>API</center>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="row stylerow">
+                                <div class="col-md-3 colone offset-1"> 
+                                <figure><a href="#"><img src="https://picsum.photos/300/200?image=611" title="TBD"/></a>
+                                </figure> 
+                                <center>TBD</center>
+                                </div>
+                                <div class="col-md-3 coltwo">
+                                <figure><a href="#"><img src="https://picsum.photos/300/200?image=611" title="TBD"/></a>
+                                </figure> 
+                                <center>TBD</center>
+                                </div>
+                                <div class="col-md-3 colthree">
+                                <figure><a href="#"><img src="https://picsum.photos/300/200?image=611" title="TBD"/></a>
+                                </figure> 
+                                <center>TBD</center>
+                                </div>
+                            </div> 
+                        </div>
+                        </div>
+                    </div>
+                    <div id="page-four">
+                        <h3>Contact Me</h3>
+                        <br>
+                        <center>
+                                <div class="row contactForm">
+                                        <div class="col-12">
+                                            <form action="kerv@att.net" method="POST">
+                                                <div class="control-group">
+                                                    <div class="form-group">
+                                                        <label>Name</label>
+                                                        <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                                            data-validation-required-message="Please enter your name" name="name">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <div class="form-group">
+                                                        <label>Email Address</label>
+                                                        <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                                            data-validation-required-message="Please enter your email" name="_replyto">
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                                            data-validation-required-message="Please leave a message" name="message"></textarea>
+                                                        <p class="help-block text-danger"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <div id="success"></div>
+                                                    <button type="submit" class="btn btn-lg btn-black">
+                                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                                        Send Message
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                        </form>
+                        <br>
+                        <br>
+                    </center>
+                </div>
+            </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+        <div class="footer">
+                <p><a href="https://github.com/kerv91" imageanchor="1"><img src="https://img.icons8.com/material/2x/github.png" border="0"></a>
+                <a href="https://www.linkedin.com/in/karina-rodriguez-3454a594/" imageanchor="1"><img src="https://img.icons8.com/material/48/000000/linkedin--v1.png" border="0"></a>
+                <a href="https://codepen.io/kerv91" imageanchor="1"><img src= "https://img.icons8.com/material/48/000000/codepen.png" border="0"></a></p>
+              </div>
+        
+        </html>
