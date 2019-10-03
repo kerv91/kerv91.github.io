@@ -14,10 +14,10 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 .sidebar {
     margin: 0;
     padding: 10px;
+    height: 100%;
     width: 400px;
     background-color: white;
     position: fixed;
-    height: 100%;
     overflow: auto;
 }
 
@@ -92,25 +92,29 @@ h3 {
     background-color: white;
 }
 
-footer{ 
-    position: fixed; 
-    bottom:100%; 
-    width:100%; 
-    height:100px; 
+
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
-
-.first {
-    border: 3px solid green; 
-    height: 100vh;
-    width: 100vh;
-
+.hover08 figure img {
+    padding: 10px;
+    scale: 125%;
+    width: 125%;
+    position: center;
 }
-
-.col-md-3 {
-    border: 3px solid red; 
-}
-
-footer {
-    display: block;
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: none;
+        color: black;
+        text-align: center;
 }
